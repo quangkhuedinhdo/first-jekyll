@@ -23,7 +23,7 @@ email: quangkhuedinhdo@gmail.com
 mobile: 0834105650
 description: >- # this means to ignore newlines until "baseurl:"
   Jay is a UI/UX designer with over 5 years of experience, specializing in intricate details of interface design, including patterns, grids, colors, and typography.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/first-jekyll" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
