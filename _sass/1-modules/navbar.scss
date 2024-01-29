@@ -1,0 +1,85 @@
+header {
+    .hamburger {
+        display: none;
+        @media screen and (max-width: 900px) {
+            display: block;
+            cursor: pointer;
+            .line {
+                width: 30px;
+                height: 3px;
+                background: #fefefe;
+                margin: 6px 0;
+                transition: 0.2s;
+            }
+        }
+        &.active-hamburger {
+            .line-1 {
+                transform: rotate(45deg) translateY(6px);
+                transform-origin: center center;
+            }
+            .line-2 {
+                display: none;
+            }
+            .line-3 {
+                transform: rotate(-45deg) translateY(-6px);
+                transform-origin: center center;
+            }
+        }
+    }
+    .nav-bar {
+        display: flex;
+        @media screen and (max-width: 900px) {
+            height: 0px;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(17, 17, 17, 1) 0%,
+                rgba(17, 17, 17, 0.95) 85%,
+                rgba(17, 17, 17, 0) 100%
+            );
+            transition: 0.2s;
+            overflow: hidden;
+            z-index: 999;
+            ul {
+                display: block;
+                width: fit-content;
+                margin: 20px auto 0 auto;
+                opacity: 0;
+                transition: 0.5s;
+            }
+            &.active {
+                height: 260px;
+                ul {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    padding-top: 16px;
+    ul {
+        display: flex;
+        a {
+            display: inline-block;
+            padding: 12px;
+            font-size: 24px;
+            color: white;
+            opacity: 70%;
+            transition: 0.2s;
+            &:hover {
+                opacity: 1;
+            }
+            .active {
+                opacity: 1;
+            }
+        }
+    }
+}

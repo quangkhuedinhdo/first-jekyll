@@ -1,0 +1,22 @@
+footer {
+    hr {
+        border-top: 1px solid $white;
+        opacity: 0.05;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        .social-icon-group {
+            margin: 16px, 0;
+            .social-icon {
+                padding: 8px;
+                opacity: .5;
+            }
+        }
+        p {
+            font-size: 14px;
+            opacity: .5;
+            font-weight: 300;
+        }
+    }
+}
