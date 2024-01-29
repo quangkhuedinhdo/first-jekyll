@@ -1,4 +1,7 @@
 header {
+    img {
+        opacity: .5;
+    }
     .hamburger {
         display: none;
         @media screen and (max-width: 900px) {
@@ -7,6 +10,7 @@ header {
             .line {
                 width: 30px;
                 height: 3px;
+                border-radius: 99px;
                 background: #fefefe;
                 margin: 6px 0;
                 transition: 0.2s;
@@ -38,7 +42,7 @@ header {
             background: linear-gradient(
                 to bottom,
                 rgba(17, 17, 17, 1) 0%,
-                rgba(17, 17, 17, 0.95) 85%,
+                rgba(17, 17, 17, 0.8) 85%,
                 rgba(17, 17, 17, 0) 100%
             );
             transition: 0.2s;
@@ -64,7 +68,7 @@ header {
     justify-content: space-between;
     height: auto;
     align-items: center;
-    padding-top: 16px;
+    padding-top: 32px;
     ul {
         display: flex;
         a {
@@ -77,7 +81,7 @@ header {
             &:hover {
                 opacity: 1;
             }
-            .active {
+            &.active {
                 opacity: 1;
             }
         }
