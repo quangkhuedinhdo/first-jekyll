@@ -3,6 +3,56 @@ layout: default
 title: Hi👋I'm Jay
 ---
 {% include navbar.html %}
+<section>
+    <div class="grid-container">
+        <div class="grid-item two-columns">
+            <img src="./asset/img/avatarKhue.png" alt="avatar" class="avatar" />
+            <h1 class="title">Hi<span class="animate__animated animate__tada animate__infinite"
+                    style="display: inline-block;">👋</span>I'm Jay, a designer and instructor</h1>
+            <p class="description">
+                I'm a UI/UX designer with over 5 years of experience, specializing in intricate details of interface
+                design, including patterns, grids, colors, and typography.
+            </p>
+            <p class="description">
+                I ensure that designs not only look good visually but also function effectively in real-world scenarios.
+                Feel free to reach out if you have any questions!
+            </p>
+            <div class="btn-group">
+                <button class="btn work-btn"><a href="#">View My Works</a></button>
+                <button class="btn resume-btn"><a href="my-resume.html">My Resume</a></button>
+            </div>
+            <p id="contact">
+                📱<a href="tel:0834105650">0834-105-650</a> / 💌quangkhue.dinhdo@gmail.com
+            </p>
+        </div>
+        <div class="grid-item testimonial-item">
+            <div class="testimonial">
+                <a href="#"><img src="./asset/img/redesign-project-thumbnail.png" alt="thumbnail"
+                        class="thumbnail-redesign" /></a>
+            </div>
+            <div class="testimonial testimonial-last">
+                <img src="./asset/img/avatarNhan.png" alt="avatar" class="avatar-testimonial" />
+                <p class="testimonial-header">Nhan Luu / CEO Telos Agency</p>
+                <p class="testimonial-quote">
+                    “Khue is a designer with “get-things-done-better-and-better”
+                    mindset. He is also trustworthy with his skill and knowledge, not
+                    just in design but in variety of fields.”
+                </p>
+            </div>
+            <div class="testimonial testimonial-last">
+                <img src="./asset/img/avatarToan.png" alt="avatar" class="avatar-testimonial" />
+                <p class="testimonial-header">Toan Bui / CEO Letweb</p>
+                <p class="testimonial-quote">
+                    “Khue is the man of "getting things done". He's stable,
+                    open-minded, well-organized at work. He's not only a good,
+                    experienced designer but also a researcher, writer. I strongly
+                    believe that he will be a valued member of any team.”
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% include footer.html %}
 <script>
     hamburger = document.querySelector(".hamburger");
     hamburger.onclick = function () {
