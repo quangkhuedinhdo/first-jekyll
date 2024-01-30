@@ -1,0 +1,18 @@
+---
+layout: default
+title: My Resume
+---
+{% include navbar.html %}
+{% include footer.html %}
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar")
+        navBar.classList.toggle("active")
+        hamburger = document.querySelector(".hamburger");
+        hamburger.classList.toggle("active-hamburger")
+    }
+    /*Active trên menu navbar*/
+    active = document.querySelector(".resume-menu");
+    active.classList.add("active")
+</script>
