@@ -1,0 +1,21 @@
+.other-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-headline.other {
+    margin: 0;
+}
+.grid-container-3column.other-projects {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 440px) {
+    .grid-container-3column.other-projects {
+        grid-template-rows: auto auto auto;
+        margin-bottom: 50px;
+    }
+}
+.hr-line.hr-project {
+    margin: 56px 0;
+}

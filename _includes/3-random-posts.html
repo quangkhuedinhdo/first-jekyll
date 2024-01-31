@@ -1,0 +1,31 @@
+  <div class="hr-line hr-project"></div>
+    <!-- Other projects -->
+    <div class="other-project">
+      <p class="content-headline other">Other Projects</p>
+      <button class="btn resume-btn">
+        <a href="works.html">👁️All Projects</a>
+      </button>
+    </div>
+    <section class="grid-container-3column other-projects">
+        {% assign current_post_id = page.id %}
+        {% assign random_posts = site.case-studies | where_exp: "post", "post.id != current_post_id" | sample: 3 %}
+        {% if random_posts.size > 0 %}
+        {% for post in random_posts %}
+      <div class="grid-item-project">
+        <a href="{{ site.baseurl }}{{ post.url }}"
+          ><img
+            src="{{ site.baseurl }}{{ post.thumbnail }}"
+            alt=""
+            class="thumbnail"
+        /></a>
+        <div class="tag-group-project">
+          <div class="tag-project">Redesign</div>
+          <div class="tag-project">SAAS</div>
+          <div class="tag-project">B2B</div>
+        </div>
+      </div>
+      {% endfor %}
+      {% else %}
+      <p>No posts available in this collection.</p>
+    {% endif %}
+      </section>

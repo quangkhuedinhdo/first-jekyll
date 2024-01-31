@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+    <div class="head-article">
+        <div>
+          <p class="publish-date">✍️ Published: {{ page.published }}</p>
+          <p class="title title-work">
+            {{ page.title }}
+          </p>
+          <div class="tag-group-project tag-work-page">
+            {% for tag in page.tags %}
+            <div class="tag-project">{{ tag }}</div>
+            {% endfor %}
+          </div>
+        </div>
+        <img src="{{ site.baseurl}}{{ page.cover }}" alt="" />
+      </div>
+      <div class="hr-line hr-project"></div>
+    <!-- CONTENT START -->
+    <section class="main-content-project">
+        <div class="main-content-container">
+            {{ content }}
+        </div>
+    </section>
+    <!-- CONTENT END -->
+    {% include 3-random-posts.html %}
+    {% include footer.html %}
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar")
+            navBar.classList.toggle("active")
+            hamburger = document.querySelector(".hamburger");
+            hamburger.classList.toggle("active-hamburger")
+        }
+        /*Active trên menu navbar*/
+        active = document.querySelector(".works-menu");
+        active.classList.add("active")
+    </script>
+</body>
+
+</html>
