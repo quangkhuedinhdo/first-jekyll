@@ -6,7 +6,7 @@ title: My Works
 <section class="grid-container-3column">
     {% for case-study in site.case-studies %}
     <div class="grid-item-project project-1">
-        <a href="#"><img src="{{ case-study.cover }}" alt="" class="thumbnail"></a>
+        <a href="{{ case-study.url }}"><img src="{{ case-study.cover }}" alt="" class="thumbnail"></a>
         <div class="tag-group-project">
             {% for tag in case-study.tags %}
             <div class="tag-project">{{ tag }}</div>
