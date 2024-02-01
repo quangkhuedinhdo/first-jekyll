@@ -157,3 +157,16 @@
   .btn:hover {
     transform: scale(105%) rotate(-3deg);
   }
+@media screen and (min-width: 1440px) {
+  .cover {
+    display: flex;
+    flex-direction: column;
+    min-block-size: 100vh;
+    .center-div {
+        margin-block: auto;
+    }
+}
+.grid-container {
+    margin: 0;
+}
+}

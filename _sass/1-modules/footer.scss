@@ -3,19 +3,24 @@ footer {
         border-top: 1px solid $white;
         opacity: 0.05;
     }
+    a {
+        display: inline-block;
+    }
     .footer {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding-bottom: 8px;
         .social-icon-group {
             margin: 16px, 0;
             .social-icon {
-                padding: 8px;
-                opacity: .5;
+                margin: 8px;
+                opacity: 0.5;
             }
         }
         p {
             font-size: 14px;
-            opacity: .5;
+            opacity: 0.5;
             font-weight: 300;
         }
     }
