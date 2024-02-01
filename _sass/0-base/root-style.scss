@@ -5,7 +5,7 @@ $accent_color: #FAC231;
 $font-stack: Fraunces, Georgia, serif;
 /*ROOT STYLES*/
 html {
-    background: linear-gradient(108deg, #191919 -0.85%, #191919 11.04%, #191919 20.72%, #181818 28.52%, #181818 34.79%, #181818 39.86%, #171717 44.09%, #161616 47.8%, #161616 51.35%, #151515 55.06%, #141414 59.29%, #141414 64.36%, #131313 70.63%, #121212 78.43%, #121212 88.11%, #111 100%);
+    background: $background-dark;
     font-family: $font-stack;
     color: $white;
 }
