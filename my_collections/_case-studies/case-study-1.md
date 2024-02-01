@@ -4,7 +4,7 @@ published: Jan 30, 2024
 title: Redesign Base.vn Homepage - Structure Matters
 tags: Redesign SAAS B2B
 thumbnail: asset\img\thumbnail-project-1.png
-cover: asset\img\work-1\project-1-header.png
+cover: \asset\img\work-1\project-1-header.png
 ---
 
 <p class="intro">
@@ -26,7 +26,7 @@ cover: asset\img\work-1\project-1-header.png
   Orci nunc eget risus dui. Pulvinar pellentesque etiam faucibus.
 </p>
 <figure>
-  <img src="{{ site.baseurl }}asset\img\work-1\placeholder.png" alt="" />
+  <img src="{{ site.baseurl }}\asset\img\work-1\placeholder.png" alt="" />
   <figcaption class="image-caption">
     Lorem ipsum dolor sit amet consectetur. Tortor faucibus velit
     ultricies quis pellentesque tristique. Sit feugiat quis commodo

@@ -3,7 +3,7 @@
     <div class="other-project">
       <p class="headline other">Other Projects</p>
       <button class="btn resume-btn">
-        <a href="{{ site.baseurl }}my-works.html">👁️All Projects</a>
+        <a href="{{ site.baseurl }}\my-works.html">👁️All Projects</a>
       </button>
     </div>
     <section class="grid-container-3column other-projects">
@@ -12,9 +12,9 @@
         {% if random_posts.size > 0 %}
         {% for post in random_posts %}
       <div class="grid-item-project">
-        <a href="{{ site.baseurl }}{{ post.url }}"
+        <a href="{{ site.baseurl }}\{{ post.url }}"
           ><img
-            src="{{ site.baseurl }}{{ post.thumbnail }}"
+            src="{{ site.baseurl }}\{{ post.thumbnail }}"
             alt=""
             class="thumbnail"
         /></a>
