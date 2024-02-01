@@ -114,13 +114,13 @@
       grid-column: span 6;
     }
   }
-  .i11 {
+  .i11, .i17 {
     grid-column: span 4;
     @media screen and (max-width: 440px) {
       grid-column: span 6;
     }
   }
-  .i12 {
+  .i12, .i16 {
     grid-column: span 2;
     @media screen and (max-width: 440px) {
       grid-column: span 6;
