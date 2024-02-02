@@ -11,7 +11,9 @@ title: Hi👋I'm Jay
                 <h1 class="title">Hi<span class="animate__animated animate__tada animate__infinite"
                         style="display: inline-block;">👋</span>I'm Jay, a designer and instructor</h1>
                 <p class="description">
-                    I'm a UI/UX designer with 5+ years of experience, focusing on intricate interface details like patterns, grids, colors, and typography. My designs prioritize both visual appeal and real-world functionality. Feel free to contact me with any questions!
+                    I'm a UI/UX designer with 5+ years of experience, focusing on intricate interface details like
+                    patterns, grids, colors, and typography. My designs prioritize both visual appeal and real-world
+                    functionality. Feel free to contact me with any questions!
                 </p>
                 <div class="btn-group">
                     <button class="btn work-btn"><a href="my-works.html">View My Works</a></button>
@@ -61,4 +63,17 @@ title: Hi👋I'm Jay
     /*Active trên menu navbar*/
     active = document.querySelector(".home-menu");
     active.classList.add("active")
+</script>
+<!-- GRAINED EFFECT -->
+<script>
+    var options = {
+        animate: true,
+        patternWidth: 100,
+        patternHeight: 100,
+        grainOpacity: 0.05,
+        grainDensity: 1,
+        grainWidth: 1,
+        grainHeight: 1
+    };
+    grained('#grain', options);
 </script>

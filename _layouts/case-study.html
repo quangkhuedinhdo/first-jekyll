@@ -5,7 +5,7 @@
     {% include head.html %}
 </head>
 
-<body>
+<body id="grain">
     {% include navbar.html %}
     <div class="head-article">
         <div>
@@ -43,6 +43,19 @@
         active = document.querySelector(".works-menu");
         active.classList.add("active")
     </script>
+    <!-- GRAINED EFFECT -->
+<script>
+  var options = {
+      animate: true,
+      patternWidth: 100,
+      patternHeight: 100,
+      grainOpacity: 0.05,
+      grainDensity: 1,
+      grainWidth: 1,
+      grainHeight: 1
+  };
+  grained('#grain', options);
+</script>
 </body>
 
 </html>
