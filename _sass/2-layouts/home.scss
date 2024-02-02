@@ -218,3 +218,23 @@ body::before {
         transform: translate(-15%, -20%);
     }
 }
+.avatar-container {
+    position: relative;
+    display: inline-block;
+  }
+  .avatar {
+    display: block;
+  }
+  .overlay-avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../asset/img/avatar-hover.webp') center center no-repeat; /* Thay thế 'your-gif.gif' bằng đường dẫn đến hình gif của bạn */
+    background-size: cover;
+    opacity: 0; /* Ẩn overlay ban đầu */
+  }
+  .avatar-container:hover .overlay-avatar {
+    opacity: 1; /* Hiển thị overlay khi hover */
+  }
