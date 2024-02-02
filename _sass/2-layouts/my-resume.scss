@@ -199,10 +199,14 @@
   }
 }
 .button-div-resume {
+  transition: 0.2s;
   @media screen and (max-width: 600px) {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
+    }
+    &:hover {
+      transform: scale(105%) rotate(-3deg);
     }
   }
