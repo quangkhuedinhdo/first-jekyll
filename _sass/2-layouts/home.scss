@@ -176,7 +176,7 @@ body::before {
     height: 500%;
     width: 500%;
     position: fixed;
-    opacity: 0.03;
+    opacity: 0.04;
     animation: animateGrain 8s steps(10) infinite;
     pointer-events: none;
     z-index: 1;
@@ -218,6 +218,7 @@ body::before {
         transform: translate(-15%, -20%);
     }
 }
+/*HOVER AVATAR*/
 .avatar-container {
     position: relative;
     display: inline-block;
