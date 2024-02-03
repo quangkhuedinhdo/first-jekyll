@@ -3,7 +3,7 @@ layout: case-study
 published: Jan 30, 2024
 title: Redesign Base.vn Homepage - Structure Matters
 tags: Redesign SAAS B2B
-thumbnail: asset\img\thumbnail-project-1.png
+thumbnail: \asset\img\thumbnail-project-1.png
 cover: \asset\img\work-1\project-1-header.png
 ---
 
