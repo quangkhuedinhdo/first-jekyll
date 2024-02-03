@@ -1,0 +1,40 @@
+---
+layout: default
+title: Contact
+---
+<div class="cover">
+    {% include navbar.html %}
+    <div class="center-div">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mwkglobr"
+            method="post">
+            <p class="headline">Come say hi <span class="animate__animated animate__tada animate__infinite"
+                style="display: inline-block;">👋</span></p>
+            <p class="paragraph">Drop me a line! Your words are like design elements – they matter.</p>
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name">Your name</label>
+                <input type="text" name="name" id="full-name" placeholder="Your name" required="">
+                <label for="email-address">Email</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@gmail.com" required="">
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message"
+                    placeholder="Your message"
+                    required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </div>
+    {% include footer.html %}
+</div>
+<script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar")
+        navBar.classList.toggle("active")
+        hamburger = document.querySelector(".hamburger");
+        hamburger.classList.toggle("active-hamburger")
+    }
+    /*Active trên menu navbar*/
+    active = document.querySelector(".home-menu");
+    active.classList.add("active")
+</script>
