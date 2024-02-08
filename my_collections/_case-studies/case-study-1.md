@@ -44,3 +44,8 @@ cover: \asset\img\work-1\project-1-header.png
   nulla. Pellentesque at maecenas diam ridiculus tellus leo orci risus.
   Orci nunc eget risus dui. Pulvinar pellentesque etiam faucibus.
 </p>
+<p class="headline">Resources</p>
+<ol class="resources">
+  <li>My step-by-step guide to landing pages that convert. 🔗 <a href="https://marketingexamples.com/landing-page/guide">https://marketingexamples.com/landing-page/guide</a></li>
+  <li>Landing Pages Guides by Julian Shapiro. 🔗 <a href="https://www.julian.com/guide/startup/landing-pages">https://www.julian.com/guide/startup/landing-pages</a></li>
+</ol>
