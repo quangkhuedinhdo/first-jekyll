@@ -32,6 +32,13 @@ collections:
   case-studies:
     output: true
     permalink: my-works/:name
+    order:
+      - Redesign-Base.vn-Homepage-Structure-Matters.md
+      - Vietnam-Solar-Park-Website-The-Tiny-Pattern-Rules-Them-All.md
+      - 3KShop-From-Wireframe-to-Launching.md
+      - Redesign-J&T-BI-System-Typography-matters.md
+      - case-study-5.md
+      - UI-Design-Foundation-Course-Teaching-is-Designing.md
 # Build settings
 plugins:
   - jekyll-feed
