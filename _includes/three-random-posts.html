@@ -19,9 +19,9 @@
             class="thumbnail"
         /></a>
         <div class="tag-group-project">
-          <div class="tag-project">Redesign</div>
-          <div class="tag-project">SAAS</div>
-          <div class="tag-project">B2B</div>
+          {% for tag in post.tags %}
+          <div class="tag-project">{{ tag }}</div>
+          {% endfor %}
         </div>
       </div>
       {% endfor %}
