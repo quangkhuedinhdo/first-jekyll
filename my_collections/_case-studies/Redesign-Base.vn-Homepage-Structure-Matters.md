@@ -14,7 +14,7 @@ cover: \asset\img\work-1\project-1-header.png
   hendrerit venenatis. Egestas diam dignissim enim vulputate. Interdum
   praesent adipiscing at ultrices adipiscing lorem viverra diam varius.
 </p>
-<p class="headline">Lorem ipsum dolor sit amet consectetur.</p>
+<h2 class="headline">Lorem ipsum dolor sit amet consectetur.</h2>
 <p class="paragraph">
   Lorem ipsum dolor sit amet consectetur. Justo semper volutpat vel mus
   diam sed est. Donec et sed pulvinar amet lacus. Morbi commodo arcu
@@ -44,7 +44,7 @@ cover: \asset\img\work-1\project-1-header.png
   nulla. Pellentesque at maecenas diam ridiculus tellus leo orci risus.
   Orci nunc eget risus dui. Pulvinar pellentesque etiam faucibus.
 </p>
-<p class="headline">Resources</p>
+<h2 class="headline">Resources</h2>
 <ol class="resources">
   <li>My step-by-step guide to landing pages that convert. 🔗 <a href="https://marketingexamples.com/landing-page/guide">https://marketingexamples.com/landing-page/guide</a></li>
   <li>Landing Pages Guides by Julian Shapiro. 🔗 <a href="https://www.julian.com/guide/startup/landing-pages">https://www.julian.com/guide/startup/landing-pages</a></li>
