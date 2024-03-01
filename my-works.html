@@ -7,7 +7,7 @@ title: My Works
     {% for case-study in site.case-studies %}
     <div class="grid-item-project project-1">
         <a href="{{ site.baseurl }}{{ case-study.url }}"><img data-src="{{ case-study.thumbnail }}" alt=""
-                class="thumbnail lazyload""></a>
+                class="blur-up lazyload"></a>
         <div class="tag-group-project">
             {% for tag in case-study.tags %}
             <div class="tag-project">{{ tag }}</div>
