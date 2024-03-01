@@ -1,7 +1,7 @@
 /*VARIABLES*/
-$white: #FFF;
+$white: #fff;
 $background-dark: #111111;
-$accent_color: #FAC231;
+$accent_color: #fac231;
 $font-stack: Fraunces, Georgia, serif;
 /*ROOT STYLES*/
 html {
@@ -17,4 +17,13 @@ body {
     @media screen and (max-width: 440px) {
         padding: 0 20px;
     }
+}
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 300ms;
 }

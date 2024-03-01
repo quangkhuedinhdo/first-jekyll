@@ -26,7 +26,7 @@ cover: \asset\img\work-1\project-1-header.png
   Orci nunc eget risus dui. Pulvinar pellentesque etiam faucibus.
 </p>
 <figure>
-  <img src="{{ site.baseurl }}\asset\img\work-1\placeholder.png" alt="" />
+  <img data-src="{{ site.baseurl }}\asset\img\work-1\placeholder.png" alt="" class="lazyload"/>
   <figcaption class="image-caption">
     Lorem ipsum dolor sit amet consectetur. Tortor faucibus velit
     ultricies quis pellentesque tristique. Sit feugiat quis commodo

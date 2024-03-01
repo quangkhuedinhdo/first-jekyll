@@ -14,9 +14,9 @@
       <div class="grid-item-project">
         <a href="{{ site.baseurl }}{{ post.url }}"
           ><img
-            src="{{ site.baseurl }}{{ post.thumbnail }}"
+            data-src="{{ site.baseurl }}{{ post.thumbnail }}"
             alt=""
-            class="thumbnail"
+            class="thumbnail lazyload"
         /></a>
         <div class="tag-group-project">
           {% for tag in post.tags %}
