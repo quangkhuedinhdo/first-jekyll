@@ -21,15 +21,17 @@ Base.vn is a technology platform that offers comprehensive enterprise management
   </figcaption>
 </figure>
 <p class="paragraph">
-  Lorem ipsum dolor sit amet consectetur. Justo semper volutpat vel mus
-  diam sed est. Donec et sed pulvinar amet lacus. Morbi commodo arcu
-  tristique pretium id tempus vestibulum felis amet. Pellentesque
-  sagittis id fermentum auctor tincidunt. Non interdum viverra enim
-  egestas interdum. Velit lorem scelerisque nisl sed vitae. Enim congue
-  nullam ut porta turpis maecenas augue pharetra. Et in arcu dolor
-  nulla. Pellentesque at maecenas diam ridiculus tellus leo orci risus.
-  Orci nunc eget risus dui. Pulvinar pellentesque etiam faucibus.
+  With this redesign project, I want to achieve three goals:
+- A more logical content structure and design
+- Modern and easily recognizable visuals
+- Higher information density.
 </p>
+<figure>
+  <img data-src="{{ site.baseurl }}\asset\img\work-1\case1-02.png" alt="" class="lazyload"/>
+  <figcaption class="image-caption">
+    Comparison between old and new design.
+  </figcaption>
+</figure>
 <h2 class="headline">Resources</h2>
 <ol class="resources">
   <li>My step-by-step guide to landing pages that convert. 🔗 <a href="https://marketingexamples.com/landing-page/guide">https://marketingexamples.com/landing-page/guide</a></li>
