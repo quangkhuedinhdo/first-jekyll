@@ -22,9 +22,9 @@ Base.vn is a technology platform that offers comprehensive enterprise management
 </figure>
 <p class="paragraph">
   With this redesign project, I want to achieve three goals:
-- A more logical content structure and design
-- Modern and easily recognizable visuals
-- Higher information density.
+(1) A more logical content structure and design
+(2) Modern and easily recognizable visuals
+(3) Higher information density.
 </p>
 <figure>
   <img data-src="{{ site.baseurl }}\asset\img\work-1\case1-02.png" alt="" class="lazyload"/>
