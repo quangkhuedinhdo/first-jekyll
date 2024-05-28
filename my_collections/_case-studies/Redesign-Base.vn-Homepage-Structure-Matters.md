@@ -8,11 +8,7 @@ cover: \asset\img\work-1\project-1-header.png
 ---
 
 <p class="intro">
-  Lorem ipsum dolor sit amet consectetur. Lectus sit nulla sit cras amet
-  ultricies feugiat ultrices. Odio purus non rutrum facilisi in semper
-  ut semper nullam. Tellus ut lectus malesuada senectus eu tristique
-  hendrerit venenatis. Egestas diam dignissim enim vulputate. Interdum
-  praesent adipiscing at ultrices adipiscing lorem viverra diam varius.
+Base.vn is a technology platform that offers comprehensive enterprise management software solutions in Vietnam. Its main products include Base Wework for task and project management, Base Workflow for automated process management, Base Request for handling internal requests, Base E-hiring for online recruitment, Base HRM for human resource management, Base Timeoff for leave management, and Base Expense for expense management. These solutions are designed to optimize operational processes and enhance work efficiency across various industries and business sizes.
 </p>
 <h2 class="headline">Lorem ipsum dolor sit amet consectetur.</h2>
 <p class="paragraph">
