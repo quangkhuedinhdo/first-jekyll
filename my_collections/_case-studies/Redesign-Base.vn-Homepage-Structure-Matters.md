@@ -12,14 +12,7 @@ Base.vn is a technology platform that offers comprehensive enterprise management
 </p>
 <h2 class="headline">What can we do now?</h2>
 <p class="paragraph">
-  Lorem ipsum dolor sit amet consectetur. Justo semper volutpat vel mus
-  diam sed est. Donec et sed pulvinar amet lacus. Morbi commodo arcu
-  tristique pretium id tempus vestibulum felis amet. Pellentesque
-  sagittis id fermentum auctor tincidunt. Non interdum viverra enim
-  egestas interdum. Velit lorem scelerisque nisl sed vitae. Enim congue
-  nullam ut porta turpis maecenas augue pharetra. Et in arcu dolor
-  nulla. Pellentesque at maecenas diam ridiculus tellus leo orci risus.
-  Orci nunc eget risus dui. Pulvinar pellentesque etiam faucibus.
+  I learn that the old website have duplicate sections for the content. Hence I re-construct to make it better. We will have a shorter website but compact. I note down the new content structure below.
 </p>
 <figure>
   <img data-src="{{ site.baseurl }}\asset\img\work-1\placeholder.png" alt="" class="lazyload"/>
