@@ -8,9 +8,9 @@ cover: \asset\img\work-1\project-1-header.png
 ---
 
 <p class="intro">
-Base.vn is a technology platform that offers comprehensive enterprise management software solutions in Vietnam. Its main products include Base Wework for task and project management, Base Workflow for automated process management, Base Request for handling internal requests, Base E-hiring for online recruitment, Base HRM for human resource management, Base Timeoff for leave management, and Base Expense for expense management. These solutions are designed to optimize operational processes and enhance work efficiency across various industries and business sizes.
+Base.vn is a technology platform that offers comprehensive enterprise management software solutions in Vietnam. Its main products include Base Wework, Base Workflow, Base Request, Base E-hiring, Base HRM, Base Timeoff, and Base Expense. These solutions are designed to optimize operational processes and enhance work efficiency across various industries and business sizes. I love these kinds of management solutions. However, their website has some areas that need improvement. We could create a better website so that it works as well as their products.
 </p>
-<h2 class="headline">Lorem ipsum dolor sit amet consectetur.</h2>
+<h2 class="headline">What can we do now?</h2>
 <p class="paragraph">
   Lorem ipsum dolor sit amet consectetur. Justo semper volutpat vel mus
   diam sed est. Donec et sed pulvinar amet lacus. Morbi commodo arcu
